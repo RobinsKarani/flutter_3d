@@ -1,16 +1,49 @@
-# flutter_3d
+Flutter 3D Project
+A Flutter application demonstrating 3D model rendering using the Flutter 3D Controller package.
+Setup
+Prerequisites
 
-A new Flutter project.
+Flutter (installation guide)
+Dart SDK (included with Flutter)
+IDE with Flutter support (VS Code or Android Studio recommended)
 
-## Getting Started
+Installation
 
-This project is a starting point for a Flutter application.
+Clone the repository:
+bashCopygit clone https://github.com/RobinsKarani/flutter_3d.git
+cd flutter_3d
 
-A few resources to get you started if this is your first Flutter project:
+Install dependencies:
+bashCopyflutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Run the application:
+bashCopyflutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Project Structure
+Copyflutter_3d/
+├── assets/
+│   └── models/
+│       └── taco.glb    # 3D model file
+├── lib/
+│   └── main.dart       # Application entry point
+└── pubspec.yaml        # Dependencies and metadata
+Features
+
+3D model rendering with flutter_3d_controller
+Responsive design for various screen sizes
+
+Troubleshooting
+If you encounter issues:
+
+Update Flutter:
+bashCopyflutter upgrade
+
+Verify device/emulator setup and permissions
+
+License
+MIT License - See LICENSE file for details
+Acknowledgements
+
+Flutter
+flutter_3d_controller package
